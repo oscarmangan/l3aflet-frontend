@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.swappable-page {
+
+}
+
+#login-page {
+  display: block;
+}
+
+.appForm {
+  max-width: 600px;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1vh;
+  display: block;
+}
+
+.appForm > input {
+  padding: 0.4vh;
+  max-width: 300px;
+  width: 90%;
+  margin-top: 0.3vh;
+  margin-bottom: 0.5vh;
+  border-radius: 4px;
+  border: 1px solid gainsboro;
+}
+
+.formBtn {
+  padding: 0.6vh;
+  max-width: 300px;
+  margin-top: 0.5vh;
+  margin-bottom: 1vh;
+  width: 90%;
+  background-color: #ffffff;
+  color: #387be1;
+  border: 2px solid #387be1;
+  border-radius: 4px;
+  transition-duration: 0.5s;
+}
+
+.formBtn:hover {
+  background-color: #387be1;
+  color: white;
+}
+
+.hotlink {
+  color: #387be1;
+}
+
+.textContent {
+  text-align: left;
+  margin: 2vh;
+}
